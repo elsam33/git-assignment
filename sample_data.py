@@ -7,4 +7,5 @@ sample_data = [
 ]
 
 for row in sample_data:
-    print(f"ID: {row['id']}, Name: {row['name']}")
+    print("ID: " + str(row['id']) + ", Name: " + row['name'])
+
